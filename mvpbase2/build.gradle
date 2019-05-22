@@ -66,9 +66,6 @@ dependencies {
     compile rootProject.ext.dependencies.constraintLayout
     testCompile rootProject.ext.dependencies.junit
     /**
-     * MVP模式+Retrofit1+OkHttp+Gson2.0+Dagger2
-     */
-    /**
      * MVP模式，retrofit2+rxjava2+rxandroid2+rxbinding3+rxlifecycle2+gson2
      */
     compile rootProject.ext.dependencies.retrofit2

@@ -13,6 +13,7 @@ import android.view.View;
 
 import com.mrrun.lib.androidbase.ablog.ABLog;
 import com.mrrun.lib.androidbase.base.app.AppManager;
+import com.trello.rxlifecycle2.components.support.RxAppCompatActivity;
 
 import butterknife.ButterKnife;
 import butterknife.Unbinder;
@@ -34,7 +35,7 @@ import butterknife.Unbinder;
  * @author lipin
  * @version 1.2
  */
-public abstract class BaseActivity extends AppCompatActivity {
+public abstract class BaseActivity extends RxAppCompatActivity {
 
 	/**
 	 * 当前界面对应的Activity名称
